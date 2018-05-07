@@ -1,0 +1,33 @@
+/*****************Developed by Izaan jahangir *******************/
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+body{
+    background-color: rgba(248, 239, 186,0.5);
+}
+.row{
+    margin-top: 10px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+.float-right{
+    float: right;
+}
+li{
+    line-height: 32px;
+}
+.btn-danger{
+    margin-left: 5px;
+}
+@media (max-width: 575px){
+    h2{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,50 @@
+<!--************ Developed by Izaan jahangir  ***************-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do App</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="bootstrap-theme (journal)/bootstrap.min.css">
+
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body onload="getTodos()">
+
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">Todo App</a>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row text-center">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <label for="user-input"><b>Enter task here:</b> </label>
+                    <input type="text" id="user-input" class="form-control">
+                </div>
+                <input type="button" value="Add" class="btn btn-primary" onClick="addTask()">
+                <input type="button" value="Delete all" class="btn btn-danger" onClick="deleteAllNodes()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="my-4">Task:</h3>
+                <ol class="list-group" id="task-list">
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
